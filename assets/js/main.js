@@ -47,7 +47,7 @@ setInterval(rotateSVGs, 1000);
 
 
 
-//----------------------- Exchange rates-----------------------------
+//---------------------- Exchange rates-----------------------------
 
 async function fetchExchangeRates() {
     try {
