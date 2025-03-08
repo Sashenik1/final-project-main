@@ -60,9 +60,9 @@ async function fetchExchangeRates() {
         document.getElementById('usd-rate').textContent = `USD: ${usd.rate.toFixed(2)} UAH`;
         document.getElementById('eur-rate').textContent = `EUR: ${eur.rate.toFixed(2)} UAH`;
     } catch (error) {
-        document.getElementById('usd-rate').textContent = 'Помилка завантаження USD';
+        document.getElementById('usd-rate').textContent = 'Помилка завантаження USD ';
         document.getElementById('eur-rate').textContent = 'Помилка завантаження EUR';
-        console.error('Помилка отримання даних:', error);
+        console.error('Помилка отримання даних: ', error);
     }
 }
 
